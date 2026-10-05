@@ -2,5 +2,10 @@
   "version": "0.1",
   "what": "onshape theme",
   "name": "Skylight",
-  "background": "https://raw.githubusercontent.com/skylightrobotics/cool2/main/cool.jpeg"
+  "rules": [
+    ["o","body","background-image","url('https://raw.githubusercontent.com/skylightrobotics/cool/123b3adcf06d033f9a4637fa0b3f5b7dcdf027b2/cool.jpeg')"],
+    ["o","body","background-size","cover"],
+    ["o","body","background-position","center"],
+    ["o","body","background-repeat","no-repeat"]
+  ]
 }
